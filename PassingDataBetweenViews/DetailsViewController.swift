@@ -10,12 +10,34 @@ import UIKit
 
 class DetailsViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var colorImageView: UIImageView!
+    
+    var titleText: String?
+    var colorImage: UIImage?
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        if let titleText = titleText {
+            label.text = titleText
+        }
+        
+        if let colorImage = colorImage {
+            colorImageView.image = colorImage
+        }
+        
+        
+    }
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
-        // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

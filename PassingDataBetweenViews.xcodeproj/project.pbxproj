@@ -12,6 +12,11 @@
 		DEDC287C1E8EB514009111ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDC287A1E8EB514009111ED /* Main.storyboard */; };
 		DEDC287E1E8EB514009111ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDC287D1E8EB514009111ED /* Assets.xcassets */; };
 		DEDC28811E8EB514009111ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDC287F1E8EB514009111ED /* LaunchScreen.storyboard */; };
+		DEDC28891E8EB89B009111ED /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC28881E8EB89B009111ED /* DetailsViewController.swift */; };
+		DEDC288D1E8EBDEF009111ED /* Yellow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEDC288A1E8EBDEF009111ED /* Yellow.jpg */; };
+		DEDC288E1E8EBDEF009111ED /* Red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEDC288B1E8EBDEF009111ED /* Red.jpg */; };
+		DEDC288F1E8EBDEF009111ED /* Green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEDC288C1E8EBDEF009111ED /* Green.jpg */; };
+		DEDC28911E8EBDF4009111ED /* Blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEDC28901E8EBDF4009111ED /* Blue.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		DEDC287D1E8EB514009111ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEDC28801E8EB514009111ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEDC28821E8EB514009111ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDC28881E8EB89B009111ED /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DEDC288A1E8EBDEF009111ED /* Yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yellow.jpg; sourceTree = "<group>"; };
+		DEDC288B1E8EBDEF009111ED /* Red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Red.jpg; sourceTree = "<group>"; };
+		DEDC288C1E8EBDEF009111ED /* Green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Green.jpg; sourceTree = "<group>"; };
+		DEDC28901E8EBDF4009111ED /* Blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blue.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,12 @@
 				DEDC28761E8EB514009111ED /* AppDelegate.swift */,
 				DEDC28781E8EB514009111ED /* ViewController.swift */,
 				DEDC287A1E8EB514009111ED /* Main.storyboard */,
+				DEDC28881E8EB89B009111ED /* DetailsViewController.swift */,
 				DEDC287D1E8EB514009111ED /* Assets.xcassets */,
+				DEDC288A1E8EBDEF009111ED /* Yellow.jpg */,
+				DEDC288B1E8EBDEF009111ED /* Red.jpg */,
+				DEDC28901E8EBDF4009111ED /* Blue.jpg */,
+				DEDC288C1E8EBDEF009111ED /* Green.jpg */,
 				DEDC287F1E8EB514009111ED /* LaunchScreen.storyboard */,
 				DEDC28821E8EB514009111ED /* Info.plist */,
 			);
@@ -124,6 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEDC28811E8EB514009111ED /* LaunchScreen.storyboard in Resources */,
+				DEDC288F1E8EBDEF009111ED /* Green.jpg in Resources */,
+				DEDC28911E8EBDF4009111ED /* Blue.jpg in Resources */,
+				DEDC288E1E8EBDEF009111ED /* Red.jpg in Resources */,
+				DEDC288D1E8EBDEF009111ED /* Yellow.jpg in Resources */,
 				DEDC287E1E8EB514009111ED /* Assets.xcassets in Resources */,
 				DEDC287C1E8EB514009111ED /* Main.storyboard in Resources */,
 			);
@@ -138,6 +157,7 @@
 			files = (
 				DEDC28791E8EB514009111ED /* ViewController.swift in Sources */,
 				DEDC28771E8EB514009111ED /* AppDelegate.swift in Sources */,
+				DEDC28891E8EB89B009111ED /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
